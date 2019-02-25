@@ -1,13 +1,10 @@
-import java.util.Scanner;
  
 public class ReverseString
 {
     public static void main(String[] args)
     {
-        System.out.println("Enter string to reverse:");
         
-        Scanner read = new Scanner(System.in);
-        String str = read.nextLine();
+        String str = "RAMANAREDDY";
         String reverse = "";
         
         
